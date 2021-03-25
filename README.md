@@ -2,7 +2,7 @@
 
 JavaScript:
 
-Quando o player de musica é acionado, a função "counter" é chamada, trazendo como parâmetro um nÚmero de 0 a 3, representando cada um dos 4 players. 
+Quando o player de musica é acionado, a função "counter" é chamada, trazendo como parâmetro um número de 0 a 3, representando cada um dos 4 players. 
 Essa função verifica se o audio já foi iniciado nesse acesso ao site e, caso negativo, soma uma vez ao contador de plays. 
 Essa funcação também altera a dom(árvore de elementos) do html, mostrando ao usuário a quantidade de vezes que o audio foi tocado. 
 Caso o usuário escute o podcast até o fim, a função "reset" é acionada, também recebendo com parâmetro um número de 0 a 3 para identificar o player, 
