@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="styles.css">
+    <title>JôPodcasts</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header-container">
+            <header class="header-infos">
+                <div class="header-inside">
+                    <div class="img-header">
+                        <img id="logo" src="images/logotipo.png" alt="logotipo">
+                    </div>
+                    <input type="checkbox" id="control-nav"/>
+                    <label for="control-nav" class="control-nav"></label>
+                    <label for="control-nav" class="control-nav-close"></label>
+                    <nav class="nav-bar">
+                        <div class="blank"></div>
+                        <div class="list">
+                            <ul class="links">
+                                <li class="link">
+                                    <a href="">Home</a>
+                                </li>
+                                <li class="link">
+                                    <a href="">Episódios</a>
+                                </li>
+                                <li class="link">
+                                    <a href="">Loja</a>
+                                </li>
+                                <li>
+                                    <div class="search">
+                                        <input type="text" placeholder="Search..">
+                                        <a href="" class="search-img">
+                                            <img src="images/search.png" alt="" id="img-search">
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+        </div>
+        </div>
+        <div class="open">
+            <div class="open-left">
+                <h1>
+                    ELE VOLTOU!
+                </h1>
+                <h3>Agora em formato de podcast</h3>
+                <a href="#middle">Novos Lançamentos</a>
+            </div>
+            <div class="open-right">
+                <img src="images/jo.png" alt="Jô Soares">
+            </div></div><div class="middle" id="middle">
+            <div class="middle-container">
+                    <div class="title">
+                        <h2>ÚLTIMOS CONVIDADOS</h2>
+                    </div>
+                    <div class="episodes-container">
+                        <div class="episodes">
+                            <div class="podcast">
+                                <img src="images/fiuk.png" alt="Fiuk">
+                                <h2>Fiuk</h2>
+                                <h1>Após o BBB, Fiuk reflete sobre os aprendizados obtidos após a exposição que teve durante sua participação no programa e conta os planos futuros para sua carreira musical.</h1>
+                                <div class="audioplayer">
+                                    <audio class="player" onplay="counter('0')"  onended="reset('0')" controls>
+                                        <source  src="./audio.mp3" type="audio/mpeg">
+                                            Your browser does not support the audio tag.
+                                    </audio>
+                                    <p id="0">contagem de plays: 0</p>
+                                </div>
+                            </div>
+                            <div class="podcast">
+                                <img src="images/anitta.png" alt="Anita">
+                                <h2>Anitta</h2>
+                                <h1>A cantora Anitta comenta sobre sua ascenção no mundo do empreendedorismo e compartilha sobre sua experiência como apresentadora de seu próprio podcast internacional, ''Anitta and Friends''</h1>
+                                <div class="audioplayer">
+                                    <audio class="player" onplay="counter('1')" onended="reset('1')" controls>
+                                        <source src="./audio.mp3" type="audio/mpeg">
+                                            Your browser does not support the audio tag.
+                                    </audio>
+                                    <p id="1">contagem de plays: 0</p>
+                                </div>
+                            </div>
+                            <div class="podcast">
+                                <img src="images/whindersson.png" alt="Whindersson">
+                                <h2>Whindersson</h2>
+                                <h1>Youtuber e comediante, Whindersson Nunes fala sobre as dificuldades que enfrenta para balancear relacionamentos privados com a vida dos holofotes, e dá uma prévia de seu novo especial para a Netflix.</h1>
+                                <div class="audioplayer">
+                                    <audio class="player" onplay="counter('2')" onended="reset('2')" controls>
+                                        <source src="./audio.mp3" type="audio/mpeg">
+                                            Your browser does not support the audio tag.
+                                    </audio>
+                                    <p id="2">contagem de plays: 0</p>
+                                </div>
+                            </div>
+                            <div class="podcast">
+                                <img src="images/leticianovaes.png" alt="Letrux">
+                                <h2>Letrux</h2>
+                                <h1>Leticia Letrux chega transbordando sensibilidade e fala sobre seu mais recente disco ''Letrux Aos Prantos'', indicado ao Grammy Latino, e seu novo livro ''Tudo Que Já Nadei – Ressaca, Quebra-Mar, Marolinhas''</h1>
+                                <div class="audioplayer">
+                                    <audio class="player" onplay="counter('3')" onended="reset('3')" controls>
+                                        <source src="./audio.mp3" type="audio/mpeg">
+                                            Your browser does not support the audio tag.
+                                    </audio>
+                                    <p id="3">contagem de plays: 0</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="see-more">
+                            <div class="blank"></div>
+                            <a href="">
+                                >>ver mais
+                            </a>
+                        </div>
+                    </div>
+                </div> 
+        </div>
+        <footer>
+            <div class="footer-inside">
+                <div class="footer-left">
+                    <h3>REDES SOCIAIS</h3>
+                    <div class="footer-left-container">
+                        <div class="left-icons">
+                            <p>
+                                <img src="images/instagram.png" alt="Instagram">
+                            </p>
+                            <p>
+                                <img src="images/twitter.png" alt="Twitter">
+                            </p>
+                            <p>
+                                <img src="images/youtube.png" alt="Youtube">
+                            </p>
+                            <p>
+                                <img src="images/facebook.png" alt="Facebook">
+                            </p>
+                        </div>
+                        <div class="links-footer">
+                            <a href=""><p>Instagram</p></a>
+                            <a href=""><p>Twitter</p></a>
+                            <a href=""><p>Youtube</p></a>
+                            <a href=""><p>Facebook</p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-middle">
+                    <h3>CONTATOS</h3>
+                    <div class="footer-middle-container">
+                        <div class="middle-icons">
+                            <p>
+                                <img src="images/gmail.png" alt="E-mail">
+                            </p>
+                            <p>
+                                <img src="images/phone.png" alt="Telefone">
+                            </p>
+                        </div>
+                        <div class="footer-contacts">
+                            <a href=""><p>E-mail: JoPodcasts@gmail.com</p></a>
+                            <a href=""><p>Telefone: (19) 99622-3434</p></a>
+                            <br>
+                            <a href=""><p>acessibilidade</p></a>
+                            <a href=""><p>política de privacidade</p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <img src="images/logotipo.png" alt="Logotipo">
+                    <!-- <a href=""><p>política de privacidade</p></a>
+                    <a href=""><p>acessibilidade</p></a> -->
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
