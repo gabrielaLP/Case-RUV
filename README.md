@@ -1,5 +1,9 @@
 # Case-RUV
 
+OBS: Extrair o arquivo images.rar antes de testar o código (extrair aqui/extract here)!!
+
+
+
 JavaScript:
 
 Quando o player de musica é acionado, a função "counter" é chamada, trazendo como parâmetro um número de 0 a 3, representando cada um dos 4 players. 
